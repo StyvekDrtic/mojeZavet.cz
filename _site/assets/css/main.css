@@ -2568,14 +2568,68 @@ th {
 
 fonts
 
-*****************************************
-
+*****************************************/
 @font-face {
-    font-family: "neco";
-    src: url("../fonts/GothamRounded-Book.otf");
-}
-
-*****************************************
+  font-family: "VisueltPro-Black";
+  src: url("../fonts/VisueltPro-Black.ttf"); }
+@font-face {
+  font-family: "VisueltPro-BlackItalic";
+  src: url("../fonts/VisueltPro-BlackItalic.ttf"); }
+@font-face {
+  font-family: "VisueltPro-Bold";
+  src: url("../fonts/VisueltPro-Bold.ttf"); }
+@font-face {
+  font-family: "VisueltPro-BoldItalic";
+  src: url("../fonts/VisueltPro-BoldItalic.ttf"); }
+@font-face {
+  font-family: "VisueltPro-Italic";
+  src: url("../fonts/VisueltPro-Italic.ttf"); }
+@font-face {
+  font-family: "VisueltPro-Light";
+  src: url("../fonts/VisueltPro-Light.ttf"); }
+@font-face {
+  font-family: "VisueltPro-LightItalic";
+  src: url("../fonts/VisueltPro-LightItalic.ttf"); }
+@font-face {
+  font-family: "VisueltPro-Medium";
+  src: url("../fonts/VisueltPro-Medium.ttf"); }
+@font-face {
+  font-family: "VisueltPro-MediumItalic";
+  src: url("../fonts/VisueltPro-MediumItalic.ttf"); }
+@font-face {
+  font-family: "VisueltPro-Regular";
+  src: url("../fonts/VisueltPro-Regular.ttf"); }
+@font-face {
+  font-family: "NewYorkMedium-Black";
+  src: url("../fonts/NewYorkMedium-Black.ttf"); }
+@font-face {
+  font-family: "NewYorkMedium-BlackItalic";
+  src: url("../fonts/NewYorkMedium-BlackItalic.ttf"); }
+@font-face {
+  font-family: "NewYorkMedium-Bold";
+  src: url("../fonts/NewYorkMedium-Bold.ttf"); }
+@font-face {
+  font-family: "NewYorkMedium-BoldItalic";
+  src: url("../fonts/NewYorkMedium-BoldItalic.ttf"); }
+@font-face {
+  font-family: "NewYorkMedium-Medium";
+  src: url("../fonts/NewYorkMedium-Medium.ttf"); }
+@font-face {
+  font-family: "NewYorkMedium-MediumItalic";
+  src: url("../fonts/NewYorkMedium-MediumItalic.ttf"); }
+@font-face {
+  font-family: "NewYorkMedium-Regular";
+  src: url("../fonts/NewYorkMedium-Regular.ttf"); }
+@font-face {
+  font-family: "NewYorkMedium-RegularItalic";
+  src: url("../fonts/NewYorkMedium-RegularItalic.ttf"); }
+@font-face {
+  font-family: "NewYorkMedium-Semibold";
+  src: url("../fonts/NewYorkMedium-Semibold.ttf"); }
+@font-face {
+  font-family: "NewYorkMedium-SemiboldItalic";
+  src: url("../fonts/NewYorkMedium-SemiboldItalic.ttf"); }
+/*****************************************
 
 colors
 
@@ -2586,4 +2640,670 @@ defaults
 
 *****************************************/
 h1, h2, h3, h4, h5, p, span, a {
-  font-weight: normal !important; }
+  font-weight: normal !important;
+  font-family: VisueltPro-Regular, Helvetica, sans-serif; }
+
+h2 {
+  font-family: NewYorkMedium-Medium, Georgia, serif; }
+
+img {
+  max-width: 100vw; }
+
+.button {
+  font-family: VisueltPro-Medium;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 260px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  background: white;
+  text-decoration: none; }
+
+.hodnoceni {
+  margin: 0 auto;
+  display: block;
+  text-align: center; }
+  .hodnoceni span {
+    font-family: VisueltPro-Regular;
+    font-size: 14px;
+    color: #000000;
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
+    margin-right: 10px; }
+  .hodnoceni img {
+    width: 88px;
+    vertical-align: middle; }
+
+.pomocnaLinka img {
+  vertical-align: middle;
+  width: 20px;
+  margin-right: 12px; }
+.pomocnaLinka a {
+  font-family: VisueltPro-Bold;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+  vertical-align: middle; }
+  .pomocnaLinka a span {
+    font-family: VisueltPro-Regular;
+    font-size: 16px;
+    color: #717171; }
+
+header {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+  header .logo {
+    text-decoration: none; }
+    header .logo img {
+      width: 132px;
+      position: absolute;
+      top: 25px;
+      left: 25px; }
+  header .mobileHeader {
+    display: inline-block; }
+    header .mobileHeader img {
+      width: 25px;
+      position: absolute;
+      top: 25px;
+      right: 25px; }
+  header .desktopHeader {
+    display: none; }
+
+footer {
+  background: black; }
+  footer .footerInner {
+    border-bottom: 1px solid #444444;
+    padding-top: 30px;
+    width: calc(100% - 50px);
+    margin: 0 auto; }
+    footer .footerInner ul {
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      padding-bottom: 50px; }
+      footer .footerInner ul li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        font-family: VisueltPro-Regular;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 6px; }
+        footer .footerInner ul li h4 {
+          font-family: VisueltPro-Bold;
+          font-size: 18px;
+          color: #FFFFFF;
+          text-align: center;
+          margin: 0 auto;
+          margin-bottom: 25px; }
+        footer .footerInner ul li a {
+          font-family: VisueltPro-Regular;
+          font-size: 16px;
+          color: #FFFFFF;
+          text-align: center;
+          text-decoration: none; }
+      footer .footerInner ul .footerPopisText {
+        font-family: VisueltPro-Regular;
+        font-size: 16px;
+        color: #A5A5A5;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 25px; }
+  footer span {
+    font-family: VisueltPro-Bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: block; }
+
+.jumbotron {
+  position: relative; }
+  .jumbotron .jumbotronInner {
+    padding-top: calc(22px + 25px); }
+  .jumbotron .jumboBackground {
+    z-index: -10;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: calc(100% - 50px);
+    width: 100%; }
+  .jumbotron .jumboImg {
+    width: calc(100% - 180px);
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 30px; }
+  .jumbotron .jumboImgDesktop {
+    display: none; }
+  .jumbotron .hodnoceniDesktop {
+    display: none; }
+  .jumbotron h1 {
+    font-family: NewYorkMedium-Semibold;
+    font-size: 34px;
+    color: #000000;
+    text-align: center;
+    line-height: 44px;
+    margin: 0 auto;
+    margin-bottom: 16px; }
+  .jumbotron p {
+    opacity: 0.7;
+    font-family: VisueltPro-Medium;
+    font-size: 17px;
+    color: #000000;
+    text-align: center;
+    margin: 0 auto; }
+  .jumbotron .button {
+    margin-top: 40px;
+    margin-bottom: 15px; }
+  .jumbotron .features {
+    margin-top: 50px; }
+    .jumbotron .features .feature {
+      background: #FFFFFF;
+      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      padding: 25px 0;
+      width: calc(100% - 20px);
+      max-width: 400px;
+      margin: 0 auto;
+      margin-top: 20px; }
+      .jumbotron .features .feature img {
+        margin: 0 auto;
+        display: block; }
+      .jumbotron .features .feature h3 {
+        font-family: VisueltPro-Medium;
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+        margin: 0 auto; }
+      .jumbotron .features .feature p {
+        font-family: VisueltPro-Regular;
+        font-size: 16px;
+        color: #737373;
+        text-align: center;
+        line-height: 25px;
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        margin-top: 13px; }
+    .jumbotron .features .feature1 h3 {
+      margin-top: 21px; }
+    .jumbotron .features .feature1 img {
+      width: 38px; }
+    .jumbotron .features .feature2 h3 {
+      margin-top: 18px; }
+    .jumbotron .features .feature2 img {
+      width: 34px; }
+    .jumbotron .features .feature3 h3 {
+      margin-top: 19px; }
+    .jumbotron .features .feature3 img {
+      width: 33px; }
+
+.vysvetleni {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+  .vysvetleni .vysvetleniText {
+    width: calc(100% - 50px);
+    margin: 0 auto; }
+    .vysvetleni .vysvetleniText h2 {
+      font-family: NewYorkMedium-Medium;
+      font-size: 25px;
+      color: #000000;
+      text-align: center;
+      line-height: 35px;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 30px; }
+    .vysvetleni .vysvetleniText p {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #454545;
+      text-align: center;
+      line-height: 25px;
+      margin: 0 auto;
+      display: block; }
+  .vysvetleni img {
+    width: 160px;
+    margin: 0 auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 35px; }
+    .vysvetleni img:last-child {
+      display: none; }
+
+.trust {
+  background: #F7F7F7;
+  border: 1px solid #DBDBDB;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding-top: 30px; }
+  .trust h2 {
+    font-family: NewYorkMedium-Medium;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 auto;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-bottom: 40px; }
+  .trust .reference ul {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px; }
+    .trust .reference ul li {
+      padding: 0;
+      margin: 0;
+      list-style: none; }
+      .trust .reference ul li .recenzeInner {
+        position: relative;
+        max-width: 260px;
+        background: #FFFFFF;
+        border: 1px solid #D1D1D1;
+        border-radius: 4px;
+        padding: 15px;
+        padding-bottom: 20px;
+        margin: 0 auto;
+        margin-top: 30px; }
+        .trust .reference ul li .recenzeInner:before {
+          content: " ";
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          border-bottom: 5px solid #E5E5E5;
+          border-radius: 3px; }
+        .trust .reference ul li .recenzeInner img {
+          width: 90px; }
+        .trust .reference ul li .recenzeInner .recenzeDatum {
+          opacity: 0.4;
+          font-family: VisueltPro-Regular;
+          font-size: 13px;
+          color: #000000;
+          text-align: right;
+          position: absolute;
+          top: 16px;
+          right: 15px; }
+        .trust .reference ul li .recenzeInner .recenzeNadpis {
+          font-family: VisueltPro-Bold;
+          font-size: 16px;
+          color: #000000;
+          margin-top: 15px;
+          margin-bottom: 10px; }
+        .trust .reference ul li .recenzeInner .recenzeText {
+          font-family: VisueltPro-Regular;
+          font-size: 14px;
+          color: #000000;
+          margin-bottom: 15px; }
+        .trust .reference ul li .recenzeInner .recenzeJmeno {
+          opacity: 0.4;
+          font-family: VisueltPro-Regular;
+          font-size: 14px;
+          color: #000000; }
+  .trust .reference .heurekaFlex {
+    margin-bottom: 60px; }
+    .trust .reference .heurekaFlex p {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #000000;
+      text-align: center;
+      width: calc(100% - 50px);
+      margin: 0 auto; }
+      .trust .reference .heurekaFlex p a {
+        font-family: VisueltPro-Bold;
+        color: #000000; }
+      .trust .reference .heurekaFlex p span {
+        font-family: VisueltPro-Bold;
+        color: #000000; }
+    .trust .reference .heurekaFlex img {
+      width: 115px;
+      margin: 0 auto;
+      display: block;
+      margin-top: 15px; }
+  .trust .podpora {
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 60px; }
+    .trust .podpora .podporaBackground {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0; }
+    .trust .podpora .podporaInner {
+      z-index: 10;
+      position: relative;
+      background: #FFFFFF;
+      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.08);
+      border-radius: 7px;
+      width: calc(100% - 20px);
+      margin: 0 auto;
+      padding: 30px 0; }
+      .trust .podpora .podporaInner h2 {
+        font-family: NewYorkMedium-Medium;
+        font-size: 25px;
+        color: #000000;
+        text-align: center;
+        line-height: 35px;
+        margin: 0 auto;
+        margin-bottom: 30px; }
+      .trust .podpora .podporaInner p {
+        font-family: VisueltPro-Regular;
+        font-size: 16px;
+        color: #545454;
+        text-align: center;
+        line-height: 25px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: calc(100% - 30px); }
+      .trust .podpora .podporaInner .pomocnaLinka {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display: block;
+        text-align: center; }
+      .trust .podpora .podporaInner .podporaPic {
+        width: 200px;
+        margin: 0 auto;
+        display: block; }
+
+.triKroky {
+  margin-top: 80px; }
+  .triKroky h2 {
+    font-family: NewYorkMedium-Medium;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-bottom: 60px; }
+  .triKroky .triKrokyInner .krok1 img {
+    width: 200px; }
+  .triKroky .triKrokyInner .krok2 img {
+    width: 180px; }
+  .triKroky .triKrokyInner .krok3 img {
+    width: 200px; }
+  .triKroky .triKrokyInner .krok {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-bottom: 80px; }
+    .triKroky .triKrokyInner .krok img {
+      margin: 0 auto;
+      display: block; }
+    .triKroky .triKrokyInner .krok .krokText h3 {
+      font-family: VisueltPro-Medium;
+      font-size: 20px;
+      color: #000000;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 20px; }
+    .triKroky .triKrokyInner .krok .krokText p {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #545454;
+      text-align: center;
+      line-height: 25px;
+      margin: 0; }
+
+.carka {
+  width: calc(100% - 50px);
+  height: 1px;
+  background: #D5D5D5;
+  margin: 0 auto; }
+
+.naceceni {
+  margin-top: 80px; }
+  .naceceni h2 {
+    font-family: NewYorkMedium-Medium;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-bottom: 30px; }
+  .naceceni p {
+    font-family: VisueltPro-Regular;
+    font-size: 16px;
+    color: #545454;
+    text-align: center;
+    line-height: 25px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-bottom: 60px; }
+  .naceceni .cenik {
+    margin-bottom: 60px; }
+  .naceceni .button {
+    margin-bottom: 20px;
+    background: #FFEB66; }
+  .naceceni .podButtonem {
+    font-family: VisueltPro-Regular;
+    font-size: 16px;
+    color: #474747;
+    text-align: center;
+    line-height: 25px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    max-width: 310px; }
+
+.cenik {
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  border-radius: 5px;
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  max-width: 340px; }
+  .cenik .cena {
+    background: #FFEB66;
+    padding-top: 18px;
+    padding-bottom: 25px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 0px 1px #ffeb66;
+    -moz-box-shadow: 0px 0px 0px 1px #ffeb66;
+    box-shadow: 0px 0px 0px 1px #ffeb66;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; }
+    .cenik .cena .actualCena {
+      font-family: NewYorkMedium-Semibold;
+      font-size: 46.75px;
+      color: #000000;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 11px; }
+      .cenik .cena .actualCena .mena {
+        font-size: 21.25px;
+        font-family: NewYorkMedium-Semibold;
+        color: #000000;
+        text-align: center; }
+    .cenik .cena .neboPary {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #000000;
+      text-align: center;
+      display: block; }
+      .cenik .cena .neboPary a {
+        color: #000000; }
+  .cenik .cenikText {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .cenik .cenikText h3 {
+      font-family: VisueltPro-Medium;
+      font-size: 20px;
+      color: #000000;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      width: calc(100% - 30px);
+      max-width: 220px; }
+    .cenik .cenikText p {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #737373;
+      text-align: center;
+      line-height: 25px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      width: calc(100% - 30px); }
+    .cenik .cenikText .hodnoceniCenik img {
+      margin-right: 20px;
+      height: 16px; }
+    .cenik .cenikText .hodnoceniCenik span {
+      font-family: VisueltPro-Medium;
+      font-size: 16px;
+      color: #000000;
+      margin: 0;
+      text-align: left; }
+
+.soukromiTelefon {
+  background: #F7F7F7;
+  border: 1px solid #DBDBDB;
+  border-left: none;
+  border-right: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 80px; }
+  .soukromiTelefon h2 {
+    font-family: NewYorkMedium-Medium;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 auto;
+    width: calc(100% - 50px);
+    margin-bottom: 30px; }
+  .soukromiTelefon p {
+    font-family: VisueltPro-Regular;
+    font-size: 16px;
+    color: #232323;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 auto;
+    width: calc(100% - 50px);
+    margin-bottom: 30px; }
+  .soukromiTelefon img {
+    width: 100px;
+    margin: 0 auto;
+    display: block; }
+  .soukromiTelefon .carka {
+    margin-top: 45px;
+    margin-bottom: 45px; }
+  .soukromiTelefon .buttonCislo {
+    border: 1px solid #CBCBCB;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 13px 25px;
+    margin: 0 auto;
+    display: block;
+    width: fit-content; }
+    .soukromiTelefon .buttonCislo img {
+      display: inline-block;
+      width: 21px;
+      vertical-align: middle;
+      margin: 0;
+      margin-right: 14px; }
+    .soukromiTelefon .buttonCislo span {
+      font-family: VisueltPro-Bold;
+      font-size: 18px;
+      color: #000000;
+      font-size: 18px;
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+      top: 1px; }
+  .soukromiTelefon .zavetPresTelefon .zavetPresTelefonImg {
+    margin-bottom: 30px; }
+
+.faqs {
+  margin-top: 80px; }
+  .faqs h2 {
+    font-family: NewYorkMedium-Medium;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 auto;
+    margin-bottom: 50px; }
+  .faqs ul {
+    padding: 0;
+    margin: 0 auto;
+    width: calc(100% - 50px);
+    margin-bottom: 80px; }
+    .faqs ul li {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      border-bottom: 1px solid #D5D5D5; }
+      .faqs ul li .otazka {
+        width: calc(100% - 30px);
+        margin: 0 auto; }
+        .faqs ul li .otazka .tlacitko {
+          position: relative;
+          width: 100%; }
+          .faqs ul li .otazka .tlacitko .sipka {
+            width: 19px;
+            height: 11px;
+            background: url("../img/sipka.png");
+            transform: rotate(180deg);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 5px;
+            right: 0; }
+        .faqs ul li .otazka h4 {
+          font-family: VisueltPro-Medium;
+          font-size: 18px;
+          color: #000000;
+          line-height: 20px;
+          margin: 20px auto; }
+        .faqs ul li .otazka p {
+          font-size: 16px;
+          color: #545454;
+          margin: 0 auto;
+          margin-bottom: 20px; }
+      .faqs ul li .zavreno p {
+        display: none; }
+      .faqs ul li .zavreno .sipka {
+        transform: rotate(0deg) !important; }
+      .faqs ul li:last-child {
+        border-bottom: none; }
+
+.pustitZHlavy {
+  margin-bottom: 80px; }
+  .pustitZHlavy h2 {
+    font-family: NewYorkMedium-Medium;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 80px; }
+  .pustitZHlavy p {
+    font-family: VisueltPro-Regular;
+    font-size: 16px;
+    color: #474747;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 auto;
+    width: calc(100% - 50px); }
+  .pustitZHlavy a {
+    margin-top: 40px;
+    background: #FFEB66; }

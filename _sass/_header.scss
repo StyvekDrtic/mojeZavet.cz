@@ -1,3 +1,55 @@
 header {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 
+  .logo {
+    text-decoration: none;
+
+    img {
+      width: 132px;
+      position: absolute;
+      top: 25px;
+      left: 25px;
+    }
+  }
+
+  .mobileHeader {
+    display: inline-block;
+
+    img {
+      width: 25px;
+      position: absolute;
+      top: 25px;
+      right: 25px;
+    }
+  }
+
+  .desktopHeader {
+    display: none;
+
+    ul {
+      li {
+        a {
+
+        }
+      }
+    }
+
+    .prihlasitSe {
+
+    }
+  }
+}
+
+.pomocnaLinka {
+  img {
+
+  }
+
+  a {
+
+  }
 }

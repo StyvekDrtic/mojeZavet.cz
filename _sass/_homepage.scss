@@ -1,0 +1,777 @@
+.jumbotron {
+  position: relative;
+
+  .jumbotronInner {
+    padding-top: calc(22px + 25px);
+  }
+
+  .jumboBackground {
+    z-index: -10;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: calc(100% - 50px);
+    width: 100%;
+  }
+
+  .jumboImg {
+    width: calc(100% - 180px);
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+
+  .jumboImgMobile {
+
+  }
+
+  .jumboImgDesktop {
+    display: none;
+  }
+
+  .hodnoceniDesktop {
+    display: none;
+  }
+
+  h1 {
+    font-family: NewYorkMedium-Semibold;
+    font-size: 34px;
+    color: #000000;
+    text-align: center;
+    line-height: 44px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+
+  p {
+    opacity: 0.7;
+    font-family: VisueltPro-Medium;
+    font-size: 17px;
+    color: #000000;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .button {
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .features {
+    margin-top: 50px;
+
+    .feature {
+      background: #FFFFFF;
+      box-shadow: 0 5px 10px 0 rgba(0,0,0,0.10);
+      border-radius: 5px;
+      padding: 25px 0;
+      width: calc(100% - 20px);
+      max-width: 400px;
+      margin: 0 auto;
+      margin-top: 20px;
+
+      img {
+        margin: 0 auto;
+        display: block;
+      }
+
+      h3 {
+        font-family: VisueltPro-Medium;
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      p {
+        font-family: VisueltPro-Regular;
+        font-size: 16px;
+        color: #737373;
+        text-align: center;
+        line-height: 25px;
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        margin-top: 13px;
+      }
+    }
+
+    .feature1 {
+      h3 {
+        margin-top: 21px;
+      }
+
+      img {
+        width: 38px;
+      }
+    }
+
+    .feature2 {
+      h3 {
+        margin-top: 18px;
+      }
+
+      img {
+        width: 34px;
+      }
+    }
+
+    .feature3 {
+      h3 {
+        margin-top: 19px;
+      }
+
+      img {
+        width: 33px;
+      }
+    }
+  }
+}
+
+.vysvetleni {
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  .vysvetleniText {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+
+    h2 {
+      font-family: NewYorkMedium-Medium;
+      font-size: 25px;
+      color: #000000;
+      text-align: center;
+      line-height: 35px;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #454545;
+      text-align: center;
+      line-height: 25px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  img {
+    width: 160px;
+    margin: 0 auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 35px;
+
+    &:first-child {
+
+    }
+
+    &:last-child {
+      display: none;
+    }
+  }
+}
+
+.trust {
+  background: #F7F7F7;
+  border: 1px solid #DBDBDB;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding-top: 30px;
+
+  h2 {
+    font-family: NewYorkMedium-Medium;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 auto;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .reference {
+    ul {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 40px;
+
+      li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        .recenzeInner {
+          position: relative;
+          max-width: 260px;
+          background: #FFFFFF;
+          border: 1px solid #D1D1D1;
+          border-radius: 4px;
+          padding: 15px;
+          padding-bottom: 20px;
+          margin: 0 auto;
+          margin-top: 30px;
+
+
+          &:before {
+            content: " ";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-bottom: 5px solid #E5E5E5; //7AC8DF
+            border-radius: 3px;
+          }
+
+          img {
+            width: 90px;
+          }
+
+          .recenzeDatum {
+            opacity: 0.4;
+            font-family: VisueltPro-Regular;
+            font-size: 13px;
+            color: #000000;
+            text-align: right;
+            position: absolute;
+            top: 16px;
+            right: 15px;
+          }
+
+          .recenzeNadpis {
+            font-family: VisueltPro-Bold;
+            font-size: 16px;
+            color: #000000;
+            margin-top: 15px;
+            margin-bottom: 10px;
+          }
+
+          .recenzeText {
+            font-family: VisueltPro-Regular;
+            font-size: 14px;
+            color: #000000;
+            margin-bottom: 15px;
+          }
+
+          .recenzeJmeno {
+            opacity: 0.4;
+            font-family: VisueltPro-Regular;
+            font-size: 14px;
+            color: #000000;
+          }
+        }
+      }
+    }
+
+    .heurekaFlex {
+      margin-bottom: 60px;
+
+      p {
+        font-family: VisueltPro-Regular;
+        font-size: 16px;
+        color: #000000;
+        text-align: center;
+        width: calc(100% - 50px);
+        margin: 0 auto;
+
+        a {
+          font-family: VisueltPro-Bold;
+          color: #000000;
+        }
+
+        span {
+          font-family: VisueltPro-Bold;
+          color: #000000;
+        }
+      }
+
+      img {
+        width: 115px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 15px;
+      }
+    }
+  }
+
+  .podpora {
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 60px;
+
+    .podporaBackground {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    .podporaInner {
+      z-index: 10;
+      position: relative;
+      background: #FFFFFF;
+      box-shadow: 0 5px 10px 0 rgba(0,0,0,0.08);
+      border-radius: 7px;
+      width: calc(100% - 20px);
+      margin: 0 auto;
+      padding: 30px 0;
+
+      h2 {
+        font-family: NewYorkMedium-Medium;
+        font-size: 25px;
+        color: #000000;
+        text-align: center;
+        line-height: 35px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-family: VisueltPro-Regular;
+        font-size: 16px;
+        color: #545454;
+        text-align: center;
+        line-height: 25px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: calc(100% - 30px);
+      }
+
+      .pomocnaLinka {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display: block;
+        text-align: center;
+      }
+
+      .podporaPic {
+        width: 200px;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+  }
+}
+
+.triKroky {
+  margin-top: 80px;
+
+  h2 {
+    font-family: NewYorkMedium-Medium;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .triKrokyInner {
+    .krok1 {
+      img {
+        width: 200px;
+      }
+    }
+
+    .krok2 {
+      img {
+        width: 180px;
+      }
+    }
+
+    .krok3 {
+      img {
+        width: 200px;
+      }
+    }
+
+    .krok {
+      width: calc(100% - 50px);
+      margin: 0 auto;
+      margin-bottom: 80px;
+
+      img {
+        margin: 0 auto;
+        display: block;
+      }
+
+      .krokText {
+        h3 {
+          font-family: VisueltPro-Medium;
+          font-size: 20px;
+          color: #000000;
+          text-align: center;
+          margin-top: 40px;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-family: VisueltPro-Regular;
+          font-size: 16px;
+          color: #545454;
+          text-align: center;
+          line-height: 25px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.carka {
+  width: calc(100% - 50px);
+  height: 1px;
+  background: #D5D5D5;
+  margin: 0 auto;
+}
+
+.naceceni {
+  margin-top: 80px;
+
+  h2 {
+    font-family: NewYorkMedium-Medium;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-family: VisueltPro-Regular;
+    font-size: 16px;
+    color: #545454;
+    text-align: center;
+    line-height: 25px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .cenik {
+    margin-bottom: 60px;
+  }
+
+  .button {
+    margin-bottom: 20px;
+    background: #FFEB66;
+  }
+
+  .podButtonem {
+    font-family: VisueltPro-Regular;
+    font-size: 16px;
+    color: #474747;
+    text-align: center;
+    line-height: 25px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    max-width: 310px;
+  }
+}
+
+.cenik {
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  border-radius: 5px;
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  max-width: 340px;
+
+  .cena {
+    background: #FFEB66;
+    padding-top: 18px;
+    padding-bottom: 25px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(255,235,102,1);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(255,235,102,1);
+    box-shadow: 0px 0px 0px 1px rgba(255,235,102,1);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+    .actualCena {
+      font-family: NewYorkMedium-Semibold;
+      font-size: 46.75px;
+      color: #000000;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 11px;
+
+      .mena {
+        font-size: 21.25px;
+        font-family: NewYorkMedium-Semibold;
+        color: #000000;
+        text-align: center;
+      }
+    }
+
+    .neboPary {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #000000;
+      text-align: center;
+      display: block;
+
+      a {
+        color: #000000;
+      }
+    }
+  }
+
+  .cenikText {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    h3 {
+      font-family: VisueltPro-Medium;
+      font-size: 20px;
+      color: #000000;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      width: calc(100% - 30px);
+      max-width: 220px;
+    }
+
+    p {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #737373;
+      text-align: center;
+      line-height: 25px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      width: calc(100% - 30px);
+    }
+
+    .hodnoceniCenik {
+      img {
+        margin-right: 20px;
+        height: 16px;
+      }
+
+      span {
+        font-family: VisueltPro-Medium;
+        font-size: 16px;
+        color: #000000;
+        margin: 0;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.soukromiTelefon {
+  background: #F7F7F7;
+  border: 1px solid #DBDBDB;
+  border-left: none;
+  border-right: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 80px;
+
+  h2 {
+    font-family: NewYorkMedium-Medium;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 auto;
+    width: calc(100% - 50px);
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-family: VisueltPro-Regular;
+    font-size: 16px;
+    color: #232323;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 auto;
+    width: calc(100% - 50px);
+    margin-bottom: 30px;
+  }
+
+  img {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .carka {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+
+  .buttonCislo {
+    border: 1px solid #CBCBCB;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 13px 25px;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+
+    img {
+      display: inline-block;
+      width: 21px;
+      vertical-align: middle;
+      margin: 0;
+      margin-right: 14px;
+    }
+
+    span {
+      font-family: VisueltPro-Bold;
+      font-size: 18px;
+      color: #000000;
+      font-size: 18px;
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+      top: 1px;
+    }
+  }
+
+  .soukromi {
+    .soukromiText {
+
+    }
+
+    img {
+
+    }
+  }
+
+  .zavetPresTelefon {
+    .zavetPresTelefonImg {
+      margin-bottom: 30px;
+    }
+
+    .zavetPresTelefonText {
+
+    }
+  }
+}
+
+.faqs {
+  margin-top: 80px;
+
+  h2 {
+    font-family: NewYorkMedium-Medium;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0 auto;
+    width: calc(100% - 50px);
+    margin-bottom: 80px;
+
+    li {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      border-bottom: 1px solid #D5D5D5;
+
+      .otazka {
+        width: calc(100% - 30px);
+        margin: 0 auto;
+
+        .tlacitko {
+          position: relative;
+          width: 100%;
+
+          .sipka {
+            width: 19px;
+            height: 11px;
+            background: url("../img/sipka.png");
+            transform: rotate(180deg);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 5px;
+            right: 0;
+          }
+        }
+
+        h4 {
+          font-family: VisueltPro-Medium;
+          font-size: 18px;
+          color: #000000;
+          line-height: 20px;
+          margin: 20px auto;
+        }
+
+        p {
+          font-size: 16px;
+          color: #545454;
+          margin: 0 auto;
+          margin-bottom: 20px;
+        }
+      }
+
+      .zavreno {
+        p {
+          display: none;
+        }
+
+        .sipka {
+          transform: rotate(0deg) !important;
+        }
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.pustitZHlavy {
+  margin-bottom: 80px;
+
+  h2 {
+    font-family: NewYorkMedium-Medium;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 80px;
+  }
+
+  p {
+    font-family: VisueltPro-Regular;
+    font-size: 16px;
+    color: #474747;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 auto;
+    width: calc(100% - 50px);
+  }
+
+  a {
+    margin-top: 40px;
+    background: #FFEB66;
+  }
+}

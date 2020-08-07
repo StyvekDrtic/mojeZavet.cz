@@ -2,14 +2,112 @@
 
 fonts
 
-*****************************************
+*****************************************/
 
 @font-face {
-    font-family: "neco";
-    src: url("../fonts/GothamRounded-Book.otf");
+    font-family: "VisueltPro-Black";
+    src: url("../fonts/VisueltPro-Black.ttf");
 }
 
-*****************************************
+@font-face {
+    font-family: "VisueltPro-BlackItalic";
+    src: url("../fonts/VisueltPro-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: "VisueltPro-Bold";
+    src: url("../fonts/VisueltPro-Bold.ttf");
+}
+
+@font-face {
+    font-family: "VisueltPro-BoldItalic";
+    src: url("../fonts/VisueltPro-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "VisueltPro-Italic";
+    src: url("../fonts/VisueltPro-Italic.ttf");
+}
+
+@font-face {
+    font-family: "VisueltPro-Light";
+    src: url("../fonts/VisueltPro-Light.ttf");
+}
+
+@font-face {
+    font-family: "VisueltPro-LightItalic";
+    src: url("../fonts/VisueltPro-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: "VisueltPro-Medium";
+    src: url("../fonts/VisueltPro-Medium.ttf");
+}
+
+@font-face {
+    font-family: "VisueltPro-MediumItalic";
+    src: url("../fonts/VisueltPro-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "VisueltPro-Regular";
+    src: url("../fonts/VisueltPro-Regular.ttf");
+}
+
+
+
+
+
+@font-face {
+    font-family: "NewYorkMedium-Black";
+    src: url("../fonts/NewYorkMedium-Black.ttf");
+}
+
+@font-face {
+    font-family: "NewYorkMedium-BlackItalic";
+    src: url("../fonts/NewYorkMedium-BlackItalic.ttf");
+}
+@font-face {
+    font-family: "NewYorkMedium-Bold";
+    src: url("../fonts/NewYorkMedium-Bold.ttf");
+}
+
+@font-face {
+    font-family: "NewYorkMedium-BoldItalic";
+    src: url("../fonts/NewYorkMedium-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "NewYorkMedium-Medium";
+    src: url("../fonts/NewYorkMedium-Medium.ttf");
+}
+
+@font-face {
+    font-family: "NewYorkMedium-MediumItalic";
+    src: url("../fonts/NewYorkMedium-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "NewYorkMedium-Regular";
+    src: url("../fonts/NewYorkMedium-Regular.ttf");
+}
+
+@font-face {
+    font-family: "NewYorkMedium-RegularItalic";
+    src: url("../fonts/NewYorkMedium-RegularItalic.ttf");
+}
+
+@font-face {
+    font-family: "NewYorkMedium-Semibold";
+    src: url("../fonts/NewYorkMedium-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "NewYorkMedium-SemiboldItalic";
+    src: url("../fonts/NewYorkMedium-SemiboldItalic.ttf");
+}
+
+/*****************************************
 
 colors
 
@@ -23,5 +121,71 @@ defaults
 
 h1, h2, h3, h4, h5, p, span, a {
   font-weight: normal !important;
-  //font-family: book;
+  font-family: VisueltPro-Regular, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: NewYorkMedium-Medium, Georgia, serif;
+}
+
+img {
+  max-width: 100vw;
+}
+
+.button {
+  font-family: VisueltPro-Medium;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 260px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  background: white;
+  text-decoration: none;
+}
+
+.hodnoceni {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+
+  span {
+    font-family: VisueltPro-Regular;
+    font-size: 14px;
+    color: #000000;
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
+    margin-right: 10px;
+  }
+
+  img {
+    width: 88px;
+    vertical-align: middle;
+  }
+}
+
+.pomocnaLinka {
+  img {
+    vertical-align: middle;
+    width: 20px;
+    margin-right: 12px;
+  }
+
+  a {
+    font-family: VisueltPro-Bold;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    vertical-align: middle;
+
+    span {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #717171;
+    }
+  }
 }
