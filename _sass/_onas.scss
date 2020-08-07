@@ -1,0 +1,81 @@
+.onas {
+  padding-top: 61px;
+
+  h1 {
+    font-family: NewYorkMedium-Semibold;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  img {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 35px;
+  }
+
+  p {
+    font-family: VisueltPro-Regular;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    line-height: 25px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  h2 {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    font-family: NewYorkMedium-Medium;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+
+  .kontaktBox {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    max-width: 310px;
+    background: #F7F7F7;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 20px;
+
+    a {
+      display: block;
+      font-family: VisueltPro-Medium;
+      font-size: 19px;
+      color: #000000;
+      text-align: center;
+      line-height: 30px;
+      text-decoration: none;
+    }
+  }
+
+  .popisek {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    max-width: 310px;
+    font-family: VisueltPro-Regular;
+    font-size: 16px;
+    color: #777777;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .button {
+    background: #FFEB66;
+    margin: 60px auto;
+  }
+}
