@@ -34,3 +34,88 @@ $('a[href*="#"]')
       }
     }
   });
+
+
+// faqs
+
+$(".otazka .tlacitko").click(function() {
+  if ($(this).parent().hasClass("zavreno")) {
+
+
+    $(this).parent().removeClass("zavreno");
+  }
+
+  else {
+
+    $(this).parent().addClass("zavreno");
+  }
+});
+
+
+// menu
+
+$(".otevritMenu").click(function() {
+  if ($(".mobilniMenu").hasClass("mobilniMenuZavrit")) {
+    $(".mobilniMenu").removeClass("mobilniMenuZavrit");
+    $(".mobilniMenu").addClass("animated");
+    $(".mobilniMenu").addClass("fadeInDown");
+  }
+
+  else {
+    $(".mobilniMenu").removeClass("animated");
+    $(".mobilniMenu").removeClass("fadeInDown");
+
+    $(".mobilniMenu").addClass("animated");
+    $(".mobilniMenu").addClass("fadeOutUp");
+
+    setTimeout(function(){
+      $(".mobilniMenu").addClass("mobilniMenuZavrit");
+      $(".mobilniMenu").removeClass("animated");
+      $(".mobilniMenu").removeClass("fadeOutUp");
+    }, 1000);
+  }
+});
+
+$(".zavritMenu").click(function() {
+  if ($(".mobilniMenu").hasClass("mobilniMenuZavrit")) {
+    $(".mobilniMenu").removeClass("mobilniMenuZavrit");
+    $(".mobilniMenu").addClass("animated");
+    $(".mobilniMenu").addClass("fadeInDown");
+  }
+
+  else {
+    $(".mobilniMenu").removeClass("animated");
+    $(".mobilniMenu").removeClass("fadeInDown");
+
+    $(".mobilniMenu").addClass("animated");
+    $(".mobilniMenu").addClass("fadeOutUp");
+
+    setTimeout(function(){
+      $(".mobilniMenu").addClass("mobilniMenuZavrit");
+      $(".mobilniMenu").removeClass("animated");
+      $(".mobilniMenu").removeClass("fadeOutUp");
+    }, 1000);
+  }
+});
+
+$(".mobilniMenu nav ul a").click(function() {
+  if ($(".mobilniMenu").hasClass("mobilniMenuZavrit")) {
+    $(".mobilniMenu").removeClass("mobilniMenuZavrit");
+    $(".mobilniMenu").addClass("animated");
+    $(".mobilniMenu").addClass("fadeInDown");
+  }
+
+  else {
+    $(".mobilniMenu").removeClass("animated");
+    $(".mobilniMenu").removeClass("fadeInDown");
+
+    $(".mobilniMenu").addClass("animated");
+    $(".mobilniMenu").addClass("fadeOutUp");
+
+    setTimeout(function(){
+      $(".mobilniMenu").addClass("mobilniMenuZavrit");
+      $(".mobilniMenu").removeClass("animated");
+      $(".mobilniMenu").removeClass("fadeOutUp");
+    }, 1000);
+  }
+});

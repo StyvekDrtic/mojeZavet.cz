@@ -4,6 +4,9 @@ header {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 9;
+  max-width: 1150px;
+  margin: 0 auto;
 
   .logo {
     text-decoration: none;
@@ -13,6 +16,18 @@ header {
       position: absolute;
       top: 25px;
       left: 25px;
+
+      @media (min-width: 950px) {
+        display: inline-block;
+        vertical-align: middle;
+        top: 6.5px;
+        left: 0;
+      }
+    }
+
+    @media (min-width: 950px) {
+      display: inline-block;
+      vertical-align: middle;
     }
   }
 
@@ -24,6 +39,11 @@ header {
       position: absolute;
       top: 25px;
       right: 25px;
+      z-index: 9;
+    }
+
+    @media (min-width: 950px) {
+      display: none;
     }
   }
 
@@ -31,26 +51,82 @@ header {
     display: none;
 
     ul {
-      li {
-        a {
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+      vertical-align: middle;
+      position: absolute;
+      top: 9px;
+      left: 180px;
 
+      li {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 40px;
+
+        a {
+          text-decoration: none;
+          font-family: VisueltPro-Regular;
+          font-size: 16px;
+          color: #000000;
         }
       }
     }
 
     .prihlasitSe {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #000000;
+      background: #FFFFFF;
+      border: 2px solid #000000;
+      border-radius: 5px;
+      padding: 6px 15px;
+      padding-top: 7px;
+      display: inline-block;
+      text-decoration: none;
+      vertical-align: middle;
+      position: absolute;
+      top: 0;
+      right: 300px;
+    }
 
+    @media (min-width: 950px) {
+      display: inline-block;
+      vertical-align: middle;
     }
   }
-}
 
-.pomocnaLinka {
-  img {
+  .pomocnaLinka {
+    display: inline-block;
+    vertical-align: middle;
 
+    a {
+      span {
+        color: black;
+      }
+    }
+
+    @media (min-width: 950px) {
+      position: absolute;
+      top: 8px;
+      right: 0;
+    }
   }
 
-  a {
+  @media (min-width: 950px) {
+    left: calc(40px);
+    width: calc(100% - 80px);
+    max-width: none;
+    top: 30px;
+  }
 
+  @media (min-width: 1300px) {
+    max-width: 1150px;
+    left: calc((100% - 1150px)/2);
+    top: 30px;
   }
 }
 
@@ -127,4 +203,8 @@ header {
       }
     }
   }
+}
+
+.mobilniMenuZavrit {
+  display: none;
 }

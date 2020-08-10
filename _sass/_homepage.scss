@@ -3,6 +3,22 @@
 
   .jumbotronInner {
     padding-top: calc(22px + 25px);
+
+    .jumboText {
+      @media (min-width: 950px) {
+        width: 560px;
+      }
+    }
+
+    @media (min-width: 950px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: calc(100% - 160px);
+      max-width: 980px;
+      margin: 0 auto;
+      padding-top: calc(63px + 90px);
+    }
   }
 
   .jumboBackground {
@@ -16,7 +32,7 @@
 
   .jumboImg {
     width: calc(100% - 180px);
-    max-width: 250px;
+    max-width: 220px;
     margin: 0 auto;
     display: block;
     margin-top: 25px;
@@ -24,15 +40,35 @@
   }
 
   .jumboImgMobile {
-
+    @media (min-width: 950px) {
+      display: none;
+    }
   }
 
   .jumboImgDesktop {
     display: none;
+    width: 260px;
+    margin: 0;
+    max-width: none;
+
+    @media (min-width: 950px) {
+      display: block;
+    }
   }
 
   .hodnoceniDesktop {
     display: none;
+    text-align: left;
+
+    @media (min-width: 950px) {
+      display: block;
+    }
+  }
+
+  .hodnoceniMobile {
+    @media (min-width: 950px) {
+      display: none;
+    }
   }
 
   h1 {
@@ -43,6 +79,21 @@
     line-height: 44px;
     margin: 0 auto;
     margin-bottom: 16px;
+    width: calc(100% - 50px);
+
+    @media (max-width: 340px) {
+      width: calc(100%);
+    }
+
+    @media (min-width: 950px) {
+      text-align: left;
+      width: 100%;
+      font-family: NewYorkMedium-Semibold;
+      font-size: 56px;
+      color: #000000;
+      line-height: 72px;
+      margin-top: 10px;
+    }
   }
 
   p {
@@ -52,11 +103,20 @@
     color: #000000;
     text-align: center;
     margin: 0 auto;
+
+    @media (min-width: 950px) {
+      text-align: left;
+      font-size: 18px;
+    }
   }
 
   .button {
     margin-top: 40px;
     margin-bottom: 15px;
+
+    @media (min-width: 950px) {
+      margin-left: 0;
+    }
   }
 
   .features {
@@ -95,6 +155,13 @@
         margin: 0 auto;
         margin-top: 13px;
       }
+
+      @media (min-width: 950px) {
+        max-width: 350px;
+        margin: 0;
+        margin-top: 0;
+        width: calc(100%/3 - 20px);
+      }
     }
 
     .feature1 {
@@ -126,6 +193,21 @@
         width: 33px;
       }
     }
+
+    @media (min-width: 950px) {
+      max-width: 1150px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 100px;
+      width: calc(100% - 80px);
+    }
+  }
+
+  @media (min-width: 950px) {
+    text-align: left;
   }
 }
 
@@ -136,6 +218,7 @@
   .vysvetleniText {
     width: calc(100% - 50px);
     margin: 0 auto;
+    max-width: 600px;
 
     h2 {
       font-family: NewYorkMedium-Medium;
@@ -146,6 +229,14 @@
       margin: 0 auto;
       display: block;
       margin-bottom: 30px;
+
+      @media (min-width: 950px) {
+        text-align: left;
+        font-family: NewYorkMedium-Medium;
+        font-size: 32px;
+        color: #000000;
+        line-height: 45px;
+      }
     }
 
     p {
@@ -156,6 +247,17 @@
       line-height: 25px;
       margin: 0 auto;
       display: block;
+
+      @media (min-width: 950px) {
+        text-align: left;
+      }
+    }
+
+    @media (min-width: 950px) {
+      width: auto;
+      max-width: 550px;
+      text-align: left;
+      margin: 0;
     }
   }
 
@@ -167,12 +269,32 @@
     margin-bottom: 35px;
 
     &:first-child {
-
+      @media (min-width: 950px) {
+        display: none;
+      }
     }
 
     &:last-child {
       display: none;
+
+      @media (min-width: 950px) {
+        display: block;
+        width: 320px;
+        margin: 0;
+      }
     }
+  }
+
+  @media (min-width: 950px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 980px;
+    width: calc(100% - 80px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
   }
 }
 
@@ -194,13 +316,32 @@
     width: calc(100% - 50px);
     margin: 0 auto;
     margin-bottom: 40px;
+    max-width: 600px;
+
+    @media (min-width: 620px) {
+      margin-bottom: 5px;
+    }
+
+    @media (min-width: 950px) {
+      font-family: NewYorkMedium-Medium;
+      font-size: 32px;
+      line-height: normal;
+      color: #000000;
+      text-align: center;
+      margin-bottom: 70px;
+    }
+
+    @media (min-width: 1060px) {
+      max-width: none;
+    }
   }
 
   .reference {
     ul {
       padding: 0;
-      margin: 0;
+      margin: 0 auto;
       margin-bottom: 40px;
+      max-width: 900px;
 
       li {
         padding: 0;
@@ -266,7 +407,38 @@
             font-size: 14px;
             color: #000000;
           }
+
+          @media (min-width: 950px) {
+            margin-top: 0;
+          }
         }
+
+        @media (min-width: 620px) {
+          display: inline-block;
+          text-align: left;
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-top: 15px;
+        }
+
+        @media (min-width: 1060px) {
+          margin: 0;
+          width: calc(100% / 4 - 15px);
+        }
+      }
+
+      @media (min-width: 620px) {
+        text-align: center;
+      }
+
+      @media (min-width: 1060px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 80px);
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1150px;
       }
     }
 
@@ -324,6 +496,7 @@
       width: calc(100% - 20px);
       margin: 0 auto;
       padding: 30px 0;
+      max-width: 600px;
 
       h2 {
         font-family: NewYorkMedium-Medium;
@@ -333,6 +506,15 @@
         line-height: 35px;
         margin: 0 auto;
         margin-bottom: 30px;
+
+        @media (min-width: 950px) {
+          font-family: NewYorkMedium-Medium;
+          font-size: 32px;
+          color: #000000;
+          line-height: 45px;
+          text-align: left;
+          margin-left: 0;
+        }
       }
 
       p {
@@ -344,6 +526,13 @@
         margin: 0 auto;
         margin-bottom: 30px;
         width: calc(100% - 30px);
+        max-width: 500px;
+
+        @media (min-width: 950px) {
+          max-width: 640px;
+          text-align: left;
+          margin-left: 0;
+        }
       }
 
       .pomocnaLinka {
@@ -351,6 +540,41 @@
         margin-bottom: 30px;
         display: block;
         text-align: center;
+
+        img {
+          @media (max-width: 340px) {
+            margin-right: 5px;
+          }
+        }
+
+        a {
+          @media (max-width: 340px) {
+            font-size: 15px;
+          }
+
+          @media (min-width: 950px) {
+            font-family: VisueltPro-Bold;
+            font-size: 18px;
+            color: #000000;
+          }
+        }
+
+        span {
+          @media (max-width: 340px) {
+            font-size: 15px;
+          }
+
+          @media (min-width: 950px) {
+            font-family: VisueltPro-Regular;
+            font-size: 18px;
+            color: #717171;
+          }
+        }
+
+        @media (min-width: 950px) {
+          width: fit-content;
+          margin-left: 0;
+        }
       }
 
       .podporaPic {
@@ -358,12 +582,25 @@
         margin: 0 auto;
         display: block;
       }
+
+      @media (min-width: 950px) {
+        width: calc(100% - 80px);
+        max-width: 1150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+      }
     }
+  }
+
+  @media (min-width: 950px) {
+    padding-top: 90px;
   }
 }
 
 .triKroky {
-  margin-top: 80px;
+  padding-top: 80px;
 
   h2 {
     font-family: NewYorkMedium-Medium;
@@ -396,6 +633,7 @@
     }
 
     .krok {
+      max-width: 600px;
       width: calc(100% - 50px);
       margin: 0 auto;
       margin-bottom: 80px;
@@ -458,6 +696,7 @@
     width: calc(100% - 50px);
     margin: 0 auto;
     margin-bottom: 60px;
+    max-width: 600px;
   }
 
   .cenik {
@@ -605,6 +844,7 @@
     margin: 0 auto;
     width: calc(100% - 50px);
     margin-bottom: 30px;
+    max-width: 600px;
   }
 
   img {
@@ -685,6 +925,7 @@
     padding: 0;
     margin: 0 auto;
     width: calc(100% - 50px);
+    max-width: 600px;
     margin-bottom: 80px;
 
     li {
