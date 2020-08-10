@@ -439,6 +439,7 @@
         margin-left: auto;
         margin-right: auto;
         max-width: 1150px;
+        margin-bottom: 50px;
       }
     }
 
@@ -462,6 +463,12 @@
           font-family: VisueltPro-Bold;
           color: #000000;
         }
+
+        @media (min-width: 950px) {
+          display: inline-block;
+          vertical-align: middle;
+          width: fit-content;
+        }
       }
 
       img {
@@ -469,6 +476,20 @@
         margin: 0 auto;
         display: block;
         margin-top: 15px;
+
+        @media (min-width: 950px) {
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0;
+          margin-left: 10px;
+        }
+      }
+
+      @media (min-width: 950px) {
+        margin-bottom: 100px;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
   }
@@ -574,6 +595,7 @@
         @media (min-width: 950px) {
           width: fit-content;
           margin-left: 0;
+          margin-bottom: 0;
         }
       }
 
@@ -581,16 +603,36 @@
         width: 200px;
         margin: 0 auto;
         display: block;
+
+        @media (min-width: 950px) {
+          width: 320px;
+          margin: 0;
+        }
+      }
+
+      .podporaInnerInner {
+        @media (min-width: 950px) {
+          max-width: 980px;
+          width: calc(100% - 80px);
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
       }
 
       @media (min-width: 950px) {
         width: calc(100% - 80px);
         max-width: 1150px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         text-align: left;
+        padding-top: 60px;
+        padding-bottom: 60px;
       }
+    }
+
+    @media (min-width: 950px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
     }
   }
 
@@ -611,24 +653,68 @@
     width: calc(100% - 50px);
     margin: 0 auto;
     margin-bottom: 60px;
+
+    @media (min-width: 950px) {
+      font-family: NewYorkMedium-Medium;
+      font-size: 32px;
+      color: #000000;
+      text-align: center;
+      margin-bottom: 100px;
+    }
   }
 
   .triKrokyInner {
     .krok1 {
       img {
         width: 200px;
+
+        @media (min-width: 950px) {
+          width: 250px;
+        }
       }
     }
 
     .krok2 {
+      .krokText {
+        h3 {
+          @media (min-width: 950px) {
+            text-align: right !important;
+          }
+        }
+
+        p {
+          @media (min-width: 950px) {
+            text-align: right !important;
+          }
+        }
+
+        @media (min-width: 950px) {
+          order: 1;
+        }
+      }
+
       img {
         width: 180px;
+
+        @media (min-width: 950px) {
+          order: 2;
+          width: 225px;
+          margin-right: 20px !important;
+        }
       }
     }
 
     .krok3 {
       img {
         width: 200px;
+
+        @media (min-width: 950px) {
+          width: 250px;
+        }
+      }
+
+      @media (min-width: 950px) {
+        margin-bottom: 120px !important;
       }
     }
 
@@ -641,6 +727,10 @@
       img {
         margin: 0 auto;
         display: block;
+
+        @media (min-width: 950px) {
+          margin: 0;
+        }
       }
 
       .krokText {
@@ -651,6 +741,14 @@
           text-align: center;
           margin-top: 40px;
           margin-bottom: 20px;
+
+          @media (min-width: 950px) {
+            margin-top: 0;
+            font-family: VisueltPro-Medium;
+            font-size: 22px;
+            color: #000000;
+            text-align: left;
+          }
         }
 
         p {
@@ -660,9 +758,39 @@
           text-align: center;
           line-height: 25px;
           margin: 0;
+
+          @media (min-width: 950px) {
+            text-align: left;
+          }
+        }
+
+        @media (min-width: 950px) {
+          max-width: 460px;
+          background: #fefefe;
+          padding-top: 20px;
+          padding-bottom: 20px;
         }
       }
+
+      @media (min-width: 950px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 820px;
+        margin-bottom: 130px;
+      }
     }
+
+    @media (min-width: 950px) {
+      background: url("../img/cesta.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 23%;
+    }
+  }
+
+  @media (min-width: 950px) {
+    padding-top: 120px;
   }
 }
 
@@ -671,6 +799,7 @@
   height: 1px;
   background: #D5D5D5;
   margin: 0 auto;
+  max-width: 820px;
 }
 
 .naceceni {
@@ -685,6 +814,13 @@
     width: calc(100% - 50px);
     margin: 0 auto;
     margin-bottom: 30px;
+
+    @media (min-width: 950px) {
+      font-family: NewYorkMedium-Medium;
+      font-size: 32px;
+      color: #000000;
+      text-align: center;
+    }
   }
 
   p {
@@ -697,6 +833,11 @@
     margin: 0 auto;
     margin-bottom: 60px;
     max-width: 600px;
+
+    @media (min-width: 950px) {
+      max-width: 820px;
+      margin-bottom: 80px;
+    }
   }
 
   .cenik {
@@ -717,6 +858,10 @@
     width: calc(100% - 50px);
     margin: 0 auto;
     max-width: 310px;
+  }
+
+  @media (min-width: 950px) {
+    margin-top: 120px;
   }
 }
 
@@ -753,6 +898,15 @@
         font-family: NewYorkMedium-Semibold;
         color: #000000;
         text-align: center;
+
+        @media (min-width: 950px) {
+          font-size: 25px;
+        }
+      }
+
+      @media (min-width: 950px) {
+        font-size: 55px;
+        margin-top: 32px;
       }
     }
 
@@ -766,6 +920,15 @@
       a {
         color: #000000;
       }
+    }
+
+    @media (min-width: 950px) {
+      height: 174px;
+      width: 225px;
+      box-shadow: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      padding: 0;
     }
   }
 
@@ -785,6 +948,32 @@
       margin-bottom: 20px;
       width: calc(100% - 30px);
       max-width: 220px;
+
+      span {
+        font-family: VisueltPro-Medium;
+        font-size: 20px;
+      }
+
+      .mobileText {
+        @media (min-width: 950px) {
+          display: none;
+        }
+      }
+
+      .desktopText {
+        display: none;
+
+        @media (min-width: 950px) {
+          display: inline-block;
+        }
+      }
+
+      @media (min-width: 950px) {
+        width: auto;
+        max-width: none;
+        text-align: left;
+        margin-bottom: 16px;
+      }
     }
 
     p {
@@ -796,6 +985,11 @@
       margin: 0 auto;
       margin-bottom: 20px;
       width: calc(100% - 30px);
+
+      @media (min-width: 950px) {
+        width: auto;
+        text-align: left;
+      }
     }
 
     .hodnoceniCenik {
@@ -811,7 +1005,27 @@
         margin: 0;
         text-align: left;
       }
+
+      @media (min-width: 950px) {
+        text-align: left;
+        margin-left: 0;
+        width: fit-content;
+      }
     }
+
+    @media (min-width: 950px) {
+      padding: 0;
+      width: 460px;
+      margin: 0 auto;
+    }
+  }
+
+  @media (min-width: 950px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 745px;
+    margin-bottom: 80px !important;
   }
 }
 
@@ -833,6 +1047,16 @@
     margin: 0 auto;
     width: calc(100% - 50px);
     margin-bottom: 30px;
+
+    @media (min-width: 950px) {
+      text-align: left;
+      font-family: NewYorkMedium-Medium;
+      font-size: 32px;
+      color: #000000;
+      margin: 0;
+      margin-bottom: 25px;
+      width: 100%;
+    }
   }
 
   p {
@@ -845,17 +1069,34 @@
     width: calc(100% - 50px);
     margin-bottom: 30px;
     max-width: 600px;
+
+    @media (min-width: 950px) {
+      text-align: left;
+      margin: 0;
+      width: 100%;
+      max-width: 560px;
+    }
   }
 
   img {
     width: 100px;
     margin: 0 auto;
     display: block;
+
+    @media (min-width: 950px) {
+      width: 170px;
+      margin: 0;
+    }
   }
 
   .carka {
     margin-top: 45px;
     margin-bottom: 45px;
+
+    @media (min-width: 950px) {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
   }
 
   .buttonCislo {
@@ -885,6 +1126,11 @@
       position: relative;
       top: 1px;
     }
+
+    @media (min-width: 950px) {
+      margin-left: 0;
+      margin-top: 25px;
+    }
   }
 
   .soukromi {
@@ -895,21 +1141,54 @@
     img {
 
     }
+
+    @media (min-width: 950px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: calc(100% - 80px);
+      max-width: 820px;
+      margin: 0 auto;
+    }
   }
 
   .zavetPresTelefon {
     .zavetPresTelefonImg {
       margin-bottom: 30px;
+
+      @media (min-width: 950px) {
+        margin: 0;
+      }
     }
 
     .zavetPresTelefonText {
-
+      @media (min-width: 950px) {
+        width: 560px;
+      }
     }
+
+    @media (min-width: 950px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: calc(100% - 80px);
+      max-width: 820px;
+      margin: 0 auto;
+    }
+  }
+
+  @media (min-width: 950px) {
+    margin-top: 120px;
+    padding: 90px 0;
   }
 }
 
 .faqs {
   margin-top: 80px;
+
+  .tlacitko {
+    cursor: pointer;
+  }
 
   h2 {
     font-family: NewYorkMedium-Medium;
@@ -919,6 +1198,14 @@
     line-height: 35px;
     margin: 0 auto;
     margin-bottom: 50px;
+
+    @media (min-width: 950px) {
+      font-family: NewYorkMedium-Medium;
+      font-size: 32px;
+      color: #000000;
+      text-align: center;
+      margin-bottom: 60px;
+    }
   }
 
   ul {
@@ -953,6 +1240,10 @@
             position: absolute;
             top: 5px;
             right: 0;
+
+            @media (min-width: 950px) {
+              top: 9px;
+            }
           }
         }
 
@@ -962,6 +1253,11 @@
           color: #000000;
           line-height: 20px;
           margin: 20px auto;
+
+          @media (min-width: 950px) {
+            font-size: 22px;
+            line-height: normal;
+          }
         }
 
         p {
@@ -986,6 +1282,14 @@
         border-bottom: none;
       }
     }
+
+    @media (min-width: 950px) {
+      margin-bottom: 120px;
+    }
+  }
+
+  @media (min-width: 950px) {
+    margin-top: 120px;
   }
 }
 
@@ -1002,6 +1306,14 @@
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 80px;
+
+    @media (min-width: 950px) {
+      font-family: NewYorkMedium-Medium;
+      font-size: 32px;
+      color: #000000;
+      text-align: center;
+      margin-top: 120px;
+    }
   }
 
   p {
@@ -1017,5 +1329,9 @@
   a {
     margin-top: 40px;
     background: #FFEB66;
+  }
+
+  @media (min-width: 950px) {
+    margin-bottom: 120px;
   }
 }

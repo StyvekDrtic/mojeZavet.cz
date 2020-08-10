@@ -50,6 +50,41 @@ footer {
         text-decoration: none;
         margin-top: 25px;
       }
+
+      &:nth-child(1) {
+        @media (min-width: 950px) {
+          order: 2;
+          width: 280px;
+        }
+      }
+
+      &:nth-child(2) {
+        @media (min-width: 950px) {
+          order: 3;
+          width: 280px;
+        }
+      }
+
+      &:nth-child(3) {
+        @media (min-width: 950px) {
+          order: 1;
+          width: 280px;
+        }
+      }
+
+      @media (min-width: 950px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+    }
+
+    @media (min-width: 950px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      max-width: 980px;
+      border-top: 1px solid #444444;
+      padding-top: 0px;
     }
   }
 
@@ -63,5 +98,9 @@ footer {
     padding-bottom: 30px;
     width: 100%;
     display: block;
+  }
+
+  @media (min-width: 950px) {
+    padding-top: 40px;
   }
 }
