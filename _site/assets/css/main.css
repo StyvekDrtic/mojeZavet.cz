@@ -6327,7 +6327,7 @@ footer {
               .faqs ul li .otazka .tlacitko .sipka {
                 top: 9px; } }
         .faqs ul li .otazka h4 {
-          font-family: VisueltPro-Medium;
+          font-family: VisueltPro-Regular;
           font-size: 18px;
           color: #000000;
           line-height: 20px;
@@ -6338,9 +6338,13 @@ footer {
               line-height: normal; } }
         .faqs ul li .otazka p {
           font-size: 16px;
-          color: #545454;
+          color: #2f2f2f;
           margin: 0 auto;
+          line-height: 26px;
           margin-bottom: 20px; }
+          .faqs ul li .otazka p a {
+            color: #2f2f2f;
+            white-space: nowrap; }
       .faqs ul li .zavreno p {
         display: none; }
       .faqs ul li .zavreno .sipka {
@@ -6736,6 +6740,9 @@ footer {
     text-align: left;
     width: calc(100% - 50px);
     margin: 30px auto; }
+    @media (min-width: 950px) {
+      .legal h1 {
+        margin-top: 60px; } }
   .legal .legalText {
     font-family: VisueltPro-Regular;
     font-size: 16px;
@@ -6744,3 +6751,6 @@ footer {
     line-height: 25px;
     width: calc(100% - 50px);
     margin: 0 auto; }
+  @media (min-width: 950px) {
+    .legal {
+      padding-top: 70px; } }

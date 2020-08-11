@@ -1248,7 +1248,7 @@
         }
 
         h4 {
-          font-family: VisueltPro-Medium;
+          font-family: VisueltPro-Regular;
           font-size: 18px;
           color: #000000;
           line-height: 20px;
@@ -1262,9 +1262,15 @@
 
         p {
           font-size: 16px;
-          color: #545454;
+          color: #2f2f2f;
           margin: 0 auto;
+          line-height: 26px;
           margin-bottom: 20px;
+
+          a {
+            color: #2f2f2f;
+            white-space: nowrap;
+          }
         }
       }
 
