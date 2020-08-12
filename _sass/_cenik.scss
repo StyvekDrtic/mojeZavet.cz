@@ -337,6 +337,11 @@
     line-height: 25px;
     width: calc(100% - 50px);
     margin: 0 auto;
+
+    strong {
+      font-weight: normal;
+      font-family: VisueltPro-Bold;
+    }
   }
 
   @media (min-width: 950px) {
