@@ -6104,8 +6104,7 @@ footer {
       text-align: center;
       margin: 0 auto;
       margin-bottom: 20px;
-      width: calc(100% - 30px);
-      max-width: 220px; }
+      width: calc(100% - 20px); }
       .cenik .cenikText h3 span {
         font-family: VisueltPro-Medium;
         font-size: 20px; }
