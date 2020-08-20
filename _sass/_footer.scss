@@ -100,6 +100,22 @@ footer {
     display: block;
   }
 
+  .karty {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0 20px;
+    text-align: center;
+
+    img {
+      margin: 10px 10px;
+      max-width: 60px;
+      max-height: 25px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
   @media (min-width: 950px) {
     padding-top: 40px;
   }
