@@ -5405,6 +5405,8 @@ footer {
       max-height: 25px;
       display: inline-block;
       vertical-align: middle; }
+    footer .karty .stripeIcon {
+      max-width: 100px; }
   @media (min-width: 950px) {
     footer {
       padding-top: 40px; } }
@@ -5859,13 +5861,14 @@ footer {
             margin-left: 0;
             margin-bottom: 0; } }
       .trust .podpora .podporaInner .podporaPic {
-        width: 200px;
+        height: 74px;
         margin: 0 auto;
         display: block; }
         @media (min-width: 950px) {
           .trust .podpora .podporaInner .podporaPic {
-            width: 320px;
-            margin: 0; } }
+            height: 112px;
+            margin: 0;
+            margin-right: 10px; } }
       @media (min-width: 950px) {
         .trust .podpora .podporaInner .podporaInnerInner {
           max-width: 980px;
@@ -6036,7 +6039,7 @@ footer {
     margin-bottom: 60px; }
   .naceceni .button {
     margin-bottom: 20px;
-    background: #FFEB66; }
+    background: #ffee62; }
   .naceceni .podButtonem {
     font-family: VisueltPro-Regular;
     font-size: 16px;
@@ -6058,13 +6061,13 @@ footer {
   margin: 0 auto;
   max-width: 340px; }
   .cenik .cena {
-    background: #FFEB66;
+    background: #ffee62;
     padding-top: 18px;
     padding-bottom: 25px;
     border-radius: 4px;
-    -webkit-box-shadow: 0px 0px 0px 1px #ffeb66;
-    -moz-box-shadow: 0px 0px 0px 1px #ffeb66;
-    box-shadow: 0px 0px 0px 1px #ffeb66;
+    -webkit-box-shadow: 0px 0px 0px 1px #ffee62;
+    -moz-box-shadow: 0px 0px 0px 1px #ffee62;
+    box-shadow: 0px 0px 0px 1px #ffee62;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0; }
     .cenik .cena .actualCena {
@@ -6398,7 +6401,7 @@ footer {
     width: calc(100% - 50px); }
   .pustitZHlavy a {
     margin-top: 40px;
-    background: #FFEB66; }
+    background: #ffee62; }
   @media (min-width: 950px) {
     .pustitZHlavy {
       margin-bottom: 120px; } }
@@ -6504,7 +6507,7 @@ footer {
     text-align: center;
     line-height: 25px; }
   .onas .button {
-    background: #FFEB66;
+    background: #ffee62;
     margin: 60px auto; }
   @media (min-width: 950px) {
     .onas {
@@ -6603,7 +6606,7 @@ footer {
       color: #767676;
       display: block; }
     .cenikPage .comparisonCen .nasBalicek .button {
-      background: #FFEB66;
+      background: #ffee62;
       width: 100%;
       margin-bottom: 30px; }
     .cenikPage .comparisonCen .nasBalicek .featuresCenik ul {
@@ -6714,7 +6717,7 @@ footer {
     padding: 30px 0;
     max-width: 350px; }
     .cenikPage .ctaBox .button {
-      background: #FFEB66;
+      background: #ffee62;
       margin-bottom: 20px; }
     .cenikPage .ctaBox .pomocnaLinka {
       text-align: center;
