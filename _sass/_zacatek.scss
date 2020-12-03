@@ -1,0 +1,244 @@
+.onboarding {
+  background: #FAFAFA;
+
+  header {
+    background: #FFFFFF;
+    border-bottom: 1px solid #DDDDDD;
+    position: relative;
+
+    .logo {
+      img {
+        top: 20px;
+      }
+    }
+
+    .podpora {
+      text-decoration: none;
+      position: absolute;
+      right: 25px;
+      top: 19px;
+
+      img {
+        height: 17px;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      span {
+        font-family: VisueltPro-Bold;
+        font-size: 16px;
+        color: #000000;
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: -3px;
+      }
+    }
+  }
+}
+
+.zacatek {
+  padding-top: 40px;
+  min-height: calc(100vh - 151px);
+  padding-bottom: 50px;
+  
+  .schovat {
+    display: none;
+  }
+
+  h1 {
+    font-family: NewYorkMedium-Regular;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    line-height: 32px;
+  }
+
+  .zlutyButton {
+    background: rgb(255, 238, 98);
+    font-family: VisueltPro-Medium;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    max-width: 310px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+
+  .zpet {
+    background: none;
+    border: 0;
+    font-family: VisueltPro-Regular;
+    font-size: 16px;
+    color: #939393;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .labelOtazka {
+    font-family: VisueltPro-Medium;
+    font-size: 15px;
+    color: #858585;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+  }
+
+  .otazky {
+    button {
+      background: #FFFFFF;
+      border: 1px solid #D2D2D2;
+      box-shadow: 0 5px 10px 0 rgba(0,0,0,0.07);
+      border-radius: 5px;
+      width: 100%;
+      max-width: 310px;
+      padding: 20px;
+      padding-bottom: 22px;
+      margin-bottom: 20px;
+
+      h3 {
+        font-family: VisueltPro-Medium;
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+        margin: 0;
+      }
+
+      p {
+        font-family: VisueltPro-Regular;
+        font-size: 16px;
+        color: #787878;
+        text-align: center;
+        line-height: 22px;
+        margin: 0;
+        margin-top: 7px;
+      }
+    }
+  }
+
+  .faze1 {
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    p {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #000000;
+      text-align: center;
+      margin-top: 20px;
+
+      a {
+        color: #000000;
+      }
+    }
+
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .faze2 {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+      margin: 0 auto;
+      margin-top: 6px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .faze3 {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    text-align: center;
+
+    .success {
+      h1 {
+        margin-top: 0;
+        margin-bottom: 40px;
+      }
+
+      a {
+        background: rgb(255, 238, 98);
+        font-family: VisueltPro-Medium;
+        font-size: 18px;
+        color: #000000;
+        text-align: center;
+        border: 0;
+        border-radius: 5px;
+        display: block;
+        width: 100%;
+        max-width: 310px;
+        padding: 15px 0;
+        margin: 0 auto;
+        text-decoration: none;
+        margin-top: 40px;
+      }
+
+      ul {
+        text-align: left;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          position: relative;
+          margin-bottom: 30px;
+
+          img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 25px;
+          }
+
+          h2 {
+            font-family: VisueltPro-Medium;
+            font-size: 20px;
+            color: #000000;
+            padding-left: 40px;
+            margin: 0;
+          }
+
+          p {
+            font-family: VisueltPro-Regular;
+            font-size: 16px;
+            color: #787878;
+            line-height: 22px;
+            padding-left: 40px;
+            margin: 0;
+            margin-top: 6px;
+          }
+        }
+      }
+    }
+
+    .fail {
+      h1 {
+        margin-bottom: 40px;
+      }
+
+      p {
+        font-family: VisueltPro-Regular;
+        font-size: 16px;
+        color: #575757;
+        text-align: center;
+        line-height: 22px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

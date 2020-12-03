@@ -6771,3 +6771,178 @@ footer {
   @media (min-width: 950px) {
     .legal {
       padding-top: 70px; } }
+
+.onboarding {
+  background: #FAFAFA; }
+  .onboarding header {
+    background: #FFFFFF;
+    border-bottom: 1px solid #DDDDDD;
+    position: relative; }
+    .onboarding header .logo img {
+      top: 20px; }
+    .onboarding header .podpora {
+      text-decoration: none;
+      position: absolute;
+      right: 25px;
+      top: 19px; }
+      .onboarding header .podpora img {
+        height: 17px;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle; }
+      .onboarding header .podpora span {
+        font-family: VisueltPro-Bold;
+        font-size: 16px;
+        color: #000000;
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: -3px; }
+
+.zacatek {
+  padding-top: 40px;
+  min-height: calc(100vh - 151px);
+  padding-bottom: 50px; }
+  .zacatek .schovat {
+    display: none; }
+  .zacatek h1 {
+    font-family: NewYorkMedium-Regular;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    line-height: 32px; }
+  .zacatek .zlutyButton {
+    background: #ffee62;
+    font-family: VisueltPro-Medium;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    max-width: 310px;
+    padding: 15px;
+    margin: 0 auto; }
+  .zacatek .zpet {
+    background: none;
+    border: 0;
+    font-family: VisueltPro-Regular;
+    font-size: 16px;
+    color: #939393;
+    text-align: center;
+    padding-top: 20px; }
+  .zacatek .labelOtazka {
+    font-family: VisueltPro-Medium;
+    font-size: 15px;
+    color: #858585;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto; }
+  .zacatek .otazky button {
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 310px;
+    padding: 20px;
+    padding-bottom: 22px;
+    margin-bottom: 20px; }
+    .zacatek .otazky button h3 {
+      font-family: VisueltPro-Medium;
+      font-size: 20px;
+      color: #000000;
+      text-align: center;
+      margin: 0; }
+    .zacatek .otazky button p {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #787878;
+      text-align: center;
+      line-height: 22px;
+      margin: 0;
+      margin-top: 7px; }
+  .zacatek .faze1 {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    text-align: center; }
+    .zacatek .faze1 img {
+      display: block;
+      margin: 0 auto; }
+    .zacatek .faze1 h1 {
+      margin-top: 40px;
+      margin-bottom: 40px; }
+    .zacatek .faze1 p {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #000000;
+      text-align: center;
+      margin-top: 20px; }
+      .zacatek .faze1 p a {
+        color: #000000; }
+  .zacatek .faze2 {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    text-align: center; }
+    .zacatek .faze2 h1 {
+      margin: 0 auto;
+      margin-top: 6px;
+      margin-bottom: 40px; }
+  .zacatek .faze3 {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    text-align: center; }
+    .zacatek .faze3 .success h1 {
+      margin-top: 0;
+      margin-bottom: 40px; }
+    .zacatek .faze3 .success a {
+      background: #ffee62;
+      font-family: VisueltPro-Medium;
+      font-size: 18px;
+      color: #000000;
+      text-align: center;
+      border: 0;
+      border-radius: 5px;
+      display: block;
+      width: 100%;
+      max-width: 310px;
+      padding: 15px 0;
+      margin: 0 auto;
+      text-decoration: none;
+      margin-top: 40px; }
+    .zacatek .faze3 .success ul {
+      text-align: left;
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .zacatek .faze3 .success ul li {
+        position: relative;
+        margin-bottom: 30px; }
+        .zacatek .faze3 .success ul li img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 25px; }
+        .zacatek .faze3 .success ul li h2 {
+          font-family: VisueltPro-Medium;
+          font-size: 20px;
+          color: #000000;
+          padding-left: 40px;
+          margin: 0; }
+        .zacatek .faze3 .success ul li p {
+          font-family: VisueltPro-Regular;
+          font-size: 16px;
+          color: #787878;
+          line-height: 22px;
+          padding-left: 40px;
+          margin: 0;
+          margin-top: 6px; }
+    .zacatek .faze3 .fail h1 {
+      margin-bottom: 40px; }
+    .zacatek .faze3 .fail p {
+      font-family: VisueltPro-Regular;
+      font-size: 16px;
+      color: #575757;
+      text-align: center;
+      line-height: 22px;
+      margin-bottom: 20px; }

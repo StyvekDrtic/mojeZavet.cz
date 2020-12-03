@@ -119,3 +119,210 @@ $(".mobilniMenu nav ul a").click(function() {
     }, 1000);
   }
 });
+
+
+
+
+
+/*priorita
+
+Protect your partner
+Ensure they have everything they need if you pass away first.
+
+
+Secure your children’s future
+Appoint guardians if they’re under 18 and make sure everyone gets a fair share.
+
+
+Choose who inherits your home
+Split your estate between friends, family and even charities.
+
+
+////////////////////////
+
+//partner
+Leave gifts and messages
+Give your loved ones something to remember you by.
+
+//deti
+Set out your funeral wishes
+Choose everything from the music to your final resting place.
+
+//domov
+Share out your estate
+Divide everything up between friends, family and even charities.
+
+*/
+
+
+// onboarding appka
+
+let triVeci = [
+  {
+    "h2": "",
+    "p": ""
+  },
+  {
+    "h2": "",
+    "p": ""
+  },
+  {
+    "h2": "",
+    "p": ""
+  }
+];
+
+const update3Veci = (triVeci) => {
+
+  $(".triVeci1 h2").text(triVeci[0].h2);
+  $(".triVeci2 h2").text(triVeci[1].h2);
+  $(".triVeci3 h2").text(triVeci[2].h2);
+
+  $(".triVeci1 p").text(triVeci[0].p);
+  $(".triVeci2 p").text(triVeci[1].p);
+  $(".triVeci3 p").text(triVeci[2].p);
+}
+
+update3Veci(triVeci);
+
+
+
+// 1 fáze
+
+$(".zacatek .faze1 button").click(function() {
+  $(".faze1").addClass("schovat");
+  $(".faze2").removeClass("schovat");
+});
+
+
+// 2 fáze
+
+  // Zpět tlačítko
+
+  $(".zacatek .faze2 .otazka1 .zpet").click(function() {
+    $(".faze2").addClass("schovat");
+    $(".faze1").removeClass("schovat");
+  });
+
+  $(".zacatek .faze2 .otazka2 .zpet").click(function() {
+    $(".otazka2").addClass("schovat");
+    $(".otazka1").removeClass("schovat");
+  });
+
+  $(".zacatek .faze2 .otazka3 .zpet").click(function() {
+    $(".otazka3").addClass("schovat");
+    $(".otazka2").removeClass("schovat");
+  });
+
+  $(".zacatek .faze2 .otazka4 .zpet").click(function() {
+    $(".otazka4").addClass("schovat");
+    $(".otazka3").removeClass("schovat");
+  });
+
+
+
+
+  // Dál tlačíka
+
+  $(".zacatek .faze2 .otazka1 .otazky button").click(function() {
+    $(".otazka2").removeClass("schovat");
+    $(".otazka1").addClass("schovat");
+
+    // Mate partnera?
+    
+    if ($(this).attr('class') === "ano") {
+      triVeci[0] = {
+        "h2": "Ochraňte svého partnera",
+        "p": "Postarejte se, že dostane vše co potřebuje pokud zemřete jako první."
+      }
+
+      update3Veci(triVeci);
+    }
+
+    else {
+      triVeci[0] = {
+        "h2": "Ulehčete svým blízkým",
+        "p": "Popište svá poslední přání ohledně pohřbu, domácích mazlíčků nebo jen přehledný seznam majetku."
+      }
+
+      update3Veci(triVeci);
+    }
+  });
+
+  $(".zacatek .faze2 .otazka2 .otazky button").click(function() {
+    $(".otazka3").removeClass("schovat");
+    $(".otazka2").addClass("schovat");
+
+    // Mate deti?
+    
+    if ($(this).attr('class') === "ano") {
+      triVeci[1] = {
+        "h2": "Zajistěte budoucnost vašim dětem",
+        "p": "Jmenuje poručníka pro ty nezletilé a postarejte se, aby všichni dostali svůj férový díl."
+      }
+
+      update3Veci(triVeci);
+    }
+
+    else {
+      triVeci[1] = {
+        "h2": "Zanechte blízkým dárky a vzkazy",
+        "p": "Odkažte lidem kolem vás různé věci a osobní zprávy."
+      }
+
+      update3Veci(triVeci);
+    }
+  });
+
+  $(".zacatek .faze2 .otazka3 .otazky button").click(function() {
+    $(".otazka4").removeClass("schovat");
+    $(".otazka3").addClass("schovat");
+
+    // Mate domov?
+    
+    if ($(this).attr('class') === "ano") {
+      triVeci[2] = {
+        "h2": "Vyberte kdo zdědí Váš domov",
+        "p": "Rozdělte svůj matejek mezi rodinu, přátele nebo dokonce i charity."
+      }
+
+      update3Veci(triVeci);
+    }
+
+    else {
+      triVeci[2] = {
+        "h2": "Vyberte kdo zdědí Váš majetek",
+        "p": "Rozdělte ho mezi rodinu, přátele nebo dokonce i charity."
+      }
+
+      update3Veci(triVeci);
+    }
+  });
+
+  $(".zacatek .faze2 .otazka4 .otazky button").click(function() {
+    // Je z EU?
+    
+    if ($(this).attr('class') === "ano") {
+      $(".faze3 .fail").addClass("schovat");
+      $(".faze3 .success").removeClass("schovat");
+    }
+
+    else {
+      // sorry jako nejsi z eu tak nic nedostanes
+
+      $(".faze3 .success").addClass("schovat");
+      $(".faze3 .fail").removeClass("schovat");
+    }
+
+    $(".faze3").removeClass("schovat");
+    $(".faze2").addClass("schovat");
+  });
+
+
+// 3 fáze
+
+
+$(".zacatek .faze3 button").click(function() {
+  $(".faze3").addClass("schovat");
+  $(".faze2").removeClass("schovat");
+});
