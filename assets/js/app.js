@@ -232,8 +232,8 @@ $(".zacatek .faze1 button").click(function() {
     
     if ($(this).attr('class') === "ano") {
       triVeci[0] = {
-        "h2": "Ochraňte svého partnera",
-        "p": "Postarejte se, že dostane vše co potřebuje pokud zemřete jako první."
+        "h2": "Myslete na svého partnera",
+        "p": "Postarejte se, že dostane vše, co potřebuje, v případě, že zemřete jako první."
       }
 
       update3Veci(triVeci);
@@ -241,8 +241,8 @@ $(".zacatek .faze1 button").click(function() {
 
     else {
       triVeci[0] = {
-        "h2": "Ulehčete svým blízkým",
-        "p": "Popište svá poslední přání ohledně pohřbu, domácích mazlíčků nebo jen přehledný seznam majetku."
+        "h2": "Ulehčete situaci svým blízkým",
+        "p": "Popište svá poslední přání týkající se pohřbu, domácích mazlíčků nebo vytvořte přehledný soupis vašeho majetku."
       }
 
       update3Veci(triVeci);
@@ -258,7 +258,7 @@ $(".zacatek .faze1 button").click(function() {
     if ($(this).attr('class') === "ano") {
       triVeci[1] = {
         "h2": "Zajistěte budoucnost vašim dětem",
-        "p": "Jmenuje poručníka pro ty nezletilé a postarejte se, aby všichni dostali svůj férový díl."
+        "p": "Jmenuje poručníka pro nezletilé a postarejte se, aby každý dostal spravedlivý díl."
       }
 
       update3Veci(triVeci);
@@ -266,8 +266,8 @@ $(".zacatek .faze1 button").click(function() {
 
     else {
       triVeci[1] = {
-        "h2": "Zanechte blízkým dárky a vzkazy",
-        "p": "Odkažte lidem kolem vás různé věci a osobní zprávy."
+        "h2": "Zanechte svým blízkým dárky a vzkazy",
+        "p": "Odkažte lidem okolo vás různé věci a osobní zprávy."
       }
 
       update3Veci(triVeci);
@@ -292,7 +292,7 @@ $(".zacatek .faze1 button").click(function() {
     else {
       triVeci[2] = {
         "h2": "Vyberte kdo zdědí Váš majetek",
-        "p": "Rozdělte ho mezi rodinu, přátele nebo dokonce i charity."
+        "p": "Rozdělte ho mezi rodinu, přátele nebo charitu."
       }
 
       update3Veci(triVeci);
