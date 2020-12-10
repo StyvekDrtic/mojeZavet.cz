@@ -5317,6 +5317,37 @@ header {
 .mobilniMenuZavrit {
   display: none; }
 
+.onboarding header .logo img {
+  top: 20px;
+  left: 25px; }
+  @media (min-width: 950px) {
+    .onboarding header .logo img {
+      top: 20px;
+      left: 25px; } }
+.onboarding header .mobileHeader img {
+  top: 19px;
+  right: 25px; }
+@media (min-width: 950px) {
+  .onboarding header .headerInner {
+    max-width: 1150px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    width: calc(100% - 80px); } }
+@media (min-width: 950px) {
+  .onboarding header {
+    position: static;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-bottom: 50px; } }
+@media (min-width: 1300px) {
+  .onboarding header {
+    max-width: none;
+    width: 100%;
+    left: 0;
+    top: 0; } }
+
 footer {
   background: black; }
   footer .footerInner {
@@ -6778,9 +6809,8 @@ footer {
     background: #FFFFFF;
     border-bottom: 1px solid #DDDDDD;
     position: relative; }
-@me .logo {
-  .onboarding header img {
-    top: 20px; } }
+    .onboarding header .logo img {
+      top: 20px; }
     .onboarding header .podpora {
       text-decoration: none;
       position: absolute;
@@ -6811,6 +6841,9 @@ footer {
     color: #000000;
     text-align: center;
     line-height: 32px; }
+    @media (min-width: 950px) {
+      .zacatek h1 {
+        font-size: 40px; } }
   .zacatek .zlutyButton {
     background: #ffee62;
     font-family: VisueltPro-Medium;
@@ -6847,14 +6880,25 @@ footer {
     width: 100%;
     max-width: 310px;
     padding: 20px;
+    margin: 0 auto;
     padding-bottom: 22px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    display: block; }
+    @media (min-width: 950px) {
+      .zacatek .otazky button {
+        display: inline-block;
+        margin: 20px;
+        min-height: 102px;
+        vertical-align: middle; } }
     .zacatek .otazky button h3 {
       font-family: VisueltPro-Medium;
       font-size: 20px;
       color: #000000;
       text-align: center;
       margin: 0; }
+      @media (min-width: 950px) {
+        .zacatek .otazky button h3 {
+          font-size: 22px; } }
     .zacatek .otazky button p {
       font-family: VisueltPro-Regular;
       font-size: 16px;
@@ -6863,6 +6907,9 @@ footer {
       line-height: 22px;
       margin: 0;
       margin-top: 7px; }
+      @media (min-width: 950px) {
+        .zacatek .otazky button p {
+          font-size: 16px; } }
   .zacatek .faze1 {
     width: calc(100% - 50px);
     margin: 0 auto;
@@ -6873,6 +6920,11 @@ footer {
     .zacatek .faze1 h1 {
       margin-top: 40px;
       margin-bottom: 40px; }
+      @media (min-width: 950px) {
+        .zacatek .faze1 h1 {
+          font-size: 36px;
+          margin-top: 50px;
+          margin-bottom: 50px; } }
     .zacatek .faze1 p {
       font-family: VisueltPro-Regular;
       font-size: 16px;
@@ -6889,55 +6941,70 @@ footer {
       margin: 0 auto;
       margin-top: 6px;
       margin-bottom: 40px; }
+      @media (min-width: 950px) {
+        .zacatek .faze2 h1 {
+          margin-top: 15px;
+          margin-bottom: 50px; } }
   .zacatek .faze3 {
     width: calc(100% - 50px);
     margin: 0 auto;
     text-align: center; }
-    .zacatek .faze3 .success h1 {
-      margin-top: 0;
-      margin-bottom: 40px; }
-    .zacatek .faze3 .success a {
-      background: #ffee62;
-      font-family: VisueltPro-Medium;
-      font-size: 18px;
-      color: #000000;
-      text-align: center;
-      border: 0;
-      border-radius: 5px;
-      display: block;
-      width: 100%;
-      max-width: 310px;
-      padding: 15px 0;
-      margin: 0 auto;
-      text-decoration: none;
-      margin-top: 40px; }
-    .zacatek .faze3 .success ul {
-      text-align: left;
-      list-style: none;
-      padding: 0;
-      margin: 0; }
-      .zacatek .faze3 .success ul li {
-        position: relative;
-        margin-bottom: 30px; }
-        .zacatek .faze3 .success ul li img {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 25px; }
-        .zacatek .faze3 .success ul li h2 {
-          font-family: VisueltPro-Medium;
-          font-size: 20px;
-          color: #000000;
-          padding-left: 40px;
-          margin: 0; }
-        .zacatek .faze3 .success ul li p {
-          font-family: VisueltPro-Regular;
-          font-size: 16px;
-          color: #787878;
-          line-height: 22px;
-          padding-left: 40px;
-          margin: 0;
-          margin-top: 6px; }
+    .zacatek .faze3 .success {
+      max-width: 610px;
+      margin: 0 auto; }
+      .zacatek .faze3 .success h1 {
+        margin-top: 0;
+        margin-bottom: 40px; }
+        @media (min-width: 950px) {
+          .zacatek .faze3 .success h1 {
+            font-size: 36px;
+            line-height: 50px;
+            margin-bottom: 50px; } }
+      .zacatek .faze3 .success a {
+        background: #ffee62;
+        font-family: VisueltPro-Medium;
+        font-size: 18px;
+        color: #000000;
+        text-align: center;
+        border: 0;
+        border-radius: 5px;
+        display: block;
+        width: 100%;
+        max-width: 310px;
+        padding: 15px 0;
+        margin: 0 auto;
+        text-decoration: none;
+        margin-top: 40px; }
+        @media (min-width: 950px) {
+          .zacatek .faze3 .success a {
+            margin-top: 50px; } }
+      .zacatek .faze3 .success ul {
+        text-align: left;
+        list-style: none;
+        padding: 0;
+        margin: 0; }
+        .zacatek .faze3 .success ul li {
+          position: relative;
+          margin-bottom: 30px; }
+          .zacatek .faze3 .success ul li img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 25px; }
+          .zacatek .faze3 .success ul li h2 {
+            font-family: VisueltPro-Medium;
+            font-size: 20px;
+            color: #000000;
+            padding-left: 40px;
+            margin: 0; }
+          .zacatek .faze3 .success ul li p {
+            font-family: VisueltPro-Regular;
+            font-size: 16px;
+            color: #787878;
+            line-height: 22px;
+            padding-left: 40px;
+            margin: 0;
+            margin-top: 6px; }
     .zacatek .faze3 .fail h1 {
       margin-bottom: 40px; }
     .zacatek .faze3 .fail p {
