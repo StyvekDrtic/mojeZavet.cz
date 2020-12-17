@@ -6,7 +6,7 @@
     <DESCRIPTION>Vytvořte si vlastní závěť do 15 minut. Jednoduše. Přes internet. Bez notáře.</DESCRIPTION>
     <URL>http://mojezavet.cz/</URL>
     <IMGURL>https://demo.mojezavet.cz/assets/img/ilustraceJumbo.png</IMGURL>
-    <PRICE_VAT>990</PRICE_VAT>
+    <PRICE_VAT>1490</PRICE_VAT>
     <CATEGORYTEXT>Hobby | Přání</CATEGORYTEXT>
     <ITEMGROUP_ID>ZAVET</ITEMGROUP_ID>
     <GIFT>Sleva pro partnera</GIFT>
@@ -19,7 +19,7 @@
     <DESCRIPTION>Vytvořte si vlastní závěť přes telefon. Stačí zavolat. Bez notáře.</DESCRIPTION>
     <URL>http://mojezavet.cz/cenik</URL>
     <IMGURL>https://demo.mojezavet.cz/assets/img/ilustraceJumbo.png</IMGURL>
-    <PRICE_VAT>1490</PRICE_VAT>
+    <PRICE_VAT>1990</PRICE_VAT>
     <CATEGORYTEXT>Hobby | Přání</CATEGORYTEXT>
     <ITEMGROUP_ID>ZAVET</ITEMGROUP_ID>
     <GIFT>Sleva pro partnera</GIFT>
