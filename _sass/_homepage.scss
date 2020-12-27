@@ -372,7 +372,7 @@
           }
 
           img {
-            width: 90px;
+            height: 17px;
           }
 
           .recenzeDatum {
@@ -384,6 +384,8 @@
             position: absolute;
             top: 16px;
             right: 15px;
+
+            display: none;
           }
 
           .recenzeNadpis {
@@ -600,12 +602,13 @@
       }
 
       .podporaPic {
-        height: 74px;
+        height: 110px;
         margin: 0 auto;
         display: block;
+        margin-top: 15px;
 
         @media (min-width: 950px) {
-          height: 112px;
+          height: 130px;
           margin: 0;
           margin-right: 10px;
         }

@@ -5720,7 +5720,7 @@ footer {
           border-bottom: 5px solid #E5E5E5;
           border-radius: 3px; }
         .trust .reference ul li .recenzeInner img {
-          width: 90px; }
+          height: 17px; }
         .trust .reference ul li .recenzeInner .recenzeDatum {
           opacity: 0.4;
           font-family: VisueltPro-Regular;
@@ -5729,7 +5729,8 @@ footer {
           text-align: right;
           position: absolute;
           top: 16px;
-          right: 15px; }
+          right: 15px;
+          display: none; }
         .trust .reference ul li .recenzeInner .recenzeNadpis {
           font-family: VisueltPro-Bold;
           font-size: 16px;
@@ -5892,12 +5893,13 @@ footer {
             margin-left: 0;
             margin-bottom: 0; } }
       .trust .podpora .podporaInner .podporaPic {
-        height: 74px;
+        height: 110px;
         margin: 0 auto;
-        display: block; }
+        display: block;
+        margin-top: 15px; }
         @media (min-width: 950px) {
           .trust .podpora .podporaInner .podporaPic {
-            height: 112px;
+            height: 130px;
             margin: 0;
             margin-right: 10px; } }
       @media (min-width: 950px) {
