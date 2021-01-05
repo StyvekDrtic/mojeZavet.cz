@@ -215,8 +215,10 @@ $(".zacatek .faze1 button").click(function() {
   });
 
   $(".zacatek .faze2 .otazka4 .zpet").click(function() {
-    $(".otazka4").addClass("schovat");
-    $(".otazka3").removeClass("schovat");
+    /*$(".otazka4").addClass("schovat");
+    $(".otazka3").removeClass("schovat");*/
+
+    window.location.href = "https://mojezavet.cz";
   });
 
 
@@ -303,8 +305,15 @@ $(".zacatek .faze1 button").click(function() {
     // Je z EU?
     
     if ($(this).attr('class') === "ano") {
+      
+      /*
       $(".faze3 .fail").addClass("schovat");
       $(".faze3 .success").removeClass("schovat");
+      */
+
+      window.location.href = "https://zavet.mojezavet.cz";
+
+
     }
 
     else {
@@ -312,10 +321,14 @@ $(".zacatek .faze1 button").click(function() {
 
       $(".faze3 .success").addClass("schovat");
       $(".faze3 .fail").removeClass("schovat");
+
+      $(".faze3").removeClass("schovat");
+      $(".faze2").addClass("schovat");
     }
 
-    $(".faze3").removeClass("schovat");
-    $(".faze2").addClass("schovat");
+    /*
+    
+    */
   });
 
 
