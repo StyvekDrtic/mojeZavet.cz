@@ -311,7 +311,7 @@ $(".zacatek .faze1 button").click(function() {
       $(".faze3 .success").removeClass("schovat");
       */
 
-      window.location.href = "https://zavet.mojezavet.cz";
+      window.location.href = "https://zavet.mojezavet.cz/registrace";
 
 
     }
